@@ -282,7 +282,7 @@ class Utilities {
 			plaintext[i] = (byte) (plaintext[i] ^ key);
 		}
 		return Base64.getEncoder().encodeToString(plaintext);
-	}
+	}//
 
 	public static String decrypt(String cyphertext, byte key) {
 		byte[] b = Base64.getDecoder().decode(cyphertext);

@@ -1,4 +1,4 @@
-package _02_The_Wave;
+	package _02_The_Wave;
 
 import java.util.ArrayList;
 

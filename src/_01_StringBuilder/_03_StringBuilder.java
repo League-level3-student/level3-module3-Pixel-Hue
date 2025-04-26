@@ -25,7 +25,7 @@ StringBuilder builder = new StringBuilder(str);
     
     public static String delete(String str, int startIndex, int endIndex) {
 StringBuilder builder = new StringBuilder(str);
-    	
+    	//
         return builder.delete(startIndex, endIndex).toString();
     }
 }
